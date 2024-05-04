@@ -3,15 +3,15 @@
 
 ## HW1
 ```
-1.git pull後顯示出現conflict  
+1.git pull後顯示出現conflict
 ![image](https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image1.png)  
-2.下圖為文件出現conflict的示意圖，點擊上方選項選擇要保留的內容  
+2.下圖為文件出現conflict的示意圖，點擊上方選項選擇要保留的內容
 ![image](https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image2.png)  
-3.修改過後的檔案為下圖  
+3.修改過後的檔案為下圖
 ![image](https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image3.png)  
-4.commit完之後上傳  
+4.commit完之後上傳
 ![image](https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image4.png)  
-5.發送pull request  
+5.發送pull request
 ![image](https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image5.png)  
 ```
 
