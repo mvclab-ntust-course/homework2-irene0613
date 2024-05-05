@@ -14,4 +14,7 @@
 5.發送pull request  
 ![image](https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image5.png)  
 
-
+## HW3  
+use CVAT to label dataset  
+![image](https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image6.png)  
+下載下來的coco檔名為[car_segmentation_annotations_coco.zip](https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/car_segmentation_annotations_coco.zip)  
