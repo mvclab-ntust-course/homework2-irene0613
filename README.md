@@ -25,6 +25,16 @@
 <img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image4.png" width="500px"><br>  
 * 發送pull request  
 <img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image5.png" width="500px"><br>  
+
+# HW2 - write Dockerfile and docker-compose.yaml  
+## Classwork 2-1 : Launch static website  
+我的問題：按照PPT執行後跑出來的介面內容有誤  
+<img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image8.png" width="500px"><br>  
+  
+## Classwork 2-2 : Launch your first docker app  
+* 若是直接跑`glances`的話會在Docker發現三個檔案中只有兩個在Running  
+* 在docker_compose.yml將`traefik`改成`traefik:v1.7`就可以成功跑三個檔案(感謝`wsl5300`提醒)
+* 
   
 # HW3 - use CVAT to label dataset  
 ## 前置作業  
