@@ -15,11 +15,11 @@
 ## 問題  
 * git pull後顯示出現conflict  
 <img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image1.png" width="500px"><br>  
-* 下圖為文件出現conflict的示意圖，點擊上方選項選擇要保留的內容  
+* 下圖為文件出現conflict的示意圖  
 <img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image2.png" width="500px"><br>  
   
 ## 解決方法  
-* 修改過後的檔案為下圖  
+* 點擊出現conflict的上方選項選擇要保留的內容後，修改過的檔案為下圖  
 <img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image3.png" width="500px"><br>  
 * commit完之後上傳  
 <img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image4.png" width="500px"><br>  
