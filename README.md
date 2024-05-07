@@ -16,7 +16,7 @@
 * git pull後顯示出現conflict  
 <img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image1.png" width="500px"><br>  
 * 下圖為文件出現conflict的示意圖，點擊上方選項選擇要保留的內容  
-<img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image2.png" width="500px">  
+<img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image2.png" width="500px"><br>  
   
 ## 解決方法  
 * 修改過後的檔案為下圖  
@@ -24,7 +24,7 @@
 * commit完之後上傳  
 <img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image4.png" width="500px"><br>  
 * 發送pull request  
-<img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image5.png" width="500px">  
+<img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image5.png" width="500px"><br>  
   
 # HW3 - use CVAT to label dataset  
 ## 前置作業  
