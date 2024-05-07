@@ -13,7 +13,7 @@
 * 使用`git add .`將文件放入暫存區  
   
 ## 問題  
-* git pull後顯示出現conflict
+* git pull後顯示出現conflict  
 <img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image1.png" width="500px"><br>  
 * 下圖為文件出現conflict的示意圖，點擊上方選項選擇要保留的內容  
 <img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image2.png" width="500px">  
