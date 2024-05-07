@@ -14,17 +14,15 @@
   
 ## 問題  
 * git pull後顯示出現conflict
-<div>  
-<img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image1.png" width="500px">  
-</div>  
+<img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image1.png" width="500px"><br>  
 * 下圖為文件出現conflict的示意圖，點擊上方選項選擇要保留的內容  
 <img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image2.png" width="500px">  
   
 ## 解決方法  
 * 修改過後的檔案為下圖  
-<img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image3.png" width="500px">  
+<img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image3.png" width="500px"><br>  
 * commit完之後上傳  
-<img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image4.png" width="500px">  
+<img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image4.png" width="500px"><br>  
 * 發送pull request  
 <img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image5.png" width="500px">  
   
@@ -38,7 +36,7 @@
 ## 使用方法與結果  
 * 使用左側的AI工具協助標註圖片  
 * 其標註成果如下圖所示，在右側欄位會顯示標註的物件  
-<img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image6.png" width="500px">  
+<img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image6.png" width="500px"><br>  
 * 完成標註後點選左上方Menu下載成**coco 1.0**格式  
 * 下載下來的檔名為`car_segmentation_annotations_coco.zip`，內為圖片標註資訊的json檔  
   
