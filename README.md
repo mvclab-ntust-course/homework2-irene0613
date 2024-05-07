@@ -14,9 +14,9 @@
   
 ## 問題  
 * git pull後顯示出現conflict
-<div>
+<div>  
 <img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image1.png" width="500px">  
-</div>
+</div>  
 * 下圖為文件出現conflict的示意圖，點擊上方選項選擇要保留的內容  
 <img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image2.png" width="500px">  
   
