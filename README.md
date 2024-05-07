@@ -25,17 +25,41 @@
 <img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image4.png" width="500px"><br>  
 * 發送pull request  
 <img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image5.png" width="500px"><br>  
-
-# HW2 - write Dockerfile and docker-compose.yaml  
-## Classwork 2-1 : Launch static website  
-我的問題：按照PPT執行後跑出來的介面內容有誤  
+   
+# Classwork 2-1 : Launch static website  
+* 由於在命令提示字元無法執行其指令，因此改在**Git Bash**跑->成功  
+* 我的問題：按照PPT執行後跑出來的介面內容有誤  
 <img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image8.png" width="500px"><br>  
   
-## Classwork 2-2 : Launch your first docker app  
+# Classwork 2-2 : Launch your first docker app  
 * 若是直接跑`glances`的話會在Docker發現三個檔案中只有兩個在Running  
-* 在docker_compose.yml將`traefik`改成`traefik:v1.7`就可以成功跑三個檔案(感謝`wsl5300`提醒)
-* 
+* 在`docker_compose.yml`將**traefik**改成**traefik:v1.7**就可以成功跑三個檔案(感謝**wsl5300**提醒)  
+* 可以開啟`http://localhost:8080`但無法開啟`http://localhost:61208`  
+<img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image9.png" width="500px"><br>
+* 若是單純想要使用Glance的話，可以在命令提示字元輸入以下指令  
+  ```  
+  docker run -v /var/run/docker.sock:/var/run/docker.sock:ro --pid host -it docker.io/nicolargo/glances
+  ```  
   
+# HW2 - write Dockerfile and docker-compose.yaml  
+## 環境  
+* [Docker Desktop](https://www.docker.com/products/docker-desktop/)  
+  
+## 前置作業  
+* 下載並解壓縮`itri-bev.zip`   
+* 輸入`python detect.py --view-img --nosave --weights yolov5x.pt --source video/argoverse/argoverse.mp4  --run-liteMono --run-bev --classes 2 5 7`看看跑不跑的了   
+* 在下載一系列套件後，若是出現以下問題   
+  ```   
+  RuntimeError: Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. If you are running on a CPU-only machine, please use torch.load with map_location='cpu' to map your storages to the CPU.   
+  ```   
+  可以嘗試在`detect.py`的第272、273行加入`map_location=torch.device('cpu')`，之後就可以成功執行了！  
+<img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image10.png" width="500px"><br>  
+<img src="https://github.com/mvclab-ntust-course/homework2-irene0613/blob/main/images/image7.png" width="500px"><br>  
+  
+## 目前進度  
+* 還在嘗試撰寫檔案中  
+* 由於在 classwork 發現無法正確連線，因此有嘗試使用 Docker machine 解決，但沒有成功  
+
 # HW3 - use CVAT to label dataset  
 ## 前置作業  
 * 創立[CVAT](https://www.cvat.ai/)的帳號  
